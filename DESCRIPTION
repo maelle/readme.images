@@ -13,3 +13,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/maelle/readme.images
+BugReports: https://github.com/maelle/readme.images/issues
