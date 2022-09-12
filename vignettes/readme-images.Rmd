@@ -1,0 +1,23 @@
+---
+title: "readme-images"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{readme-images}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(readme.images)
+```
+
+```{r}
+knitr::include_graphics("pexels-photo-3807397.jpeg")
+```
